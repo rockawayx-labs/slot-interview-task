@@ -1,0 +1,19 @@
+[package]
+name = "rockawayx-labs-interview"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dotenvy = "0.15"
+futures-util = "0.3"
+solana-client = "2.3.6"
+thiserror = "2.0.18"
+tokio = { version = "1", features = [
+  "macros",
+  "net",
+  "rt-multi-thread",
+  "sync",
+  "time",
+  "test-util",
+] }
+url = "2.5.8"

@@ -1,0 +1,17 @@
+# env
+.env
+
+# macOS
+*.DS_Store
+
+# Rust build artifacts
+target/
+
+# Rustfmt backup files
+**/*.rs.bk
+
+# Editor
+.idea/
+.vscode/
+.swp
+*.iml
