@@ -6,9 +6,18 @@ Solana slot update listener. Connects via WebSocket, subscribes to slot updates,
 
 ## Your Task
 
-Store slot updates in a sliding window with a configurable time frame.
-
-Updates should be stored **uniquely**.
+1. Store slot updates
+   - use configurable sliding window (e.g., last 2 minutes)
+   - store slot identifier and timestamp
+   - updates MUST be stored **uniquely**
+2. [Optional] Expose an HTTP endpoint to retrieve stored slot updates
+   - `GET /slots` - returns slot updates in JSON format
+     - optional parameters:
+       - `since` timestamp
+       - `tail` number of recent updates
+   - `GET /stats` - returns aggregated statistics
+     - total slots in the window
+     - average slot time
 
 > [!CAUTION]
 > Do NOT create pull requests in this repository. Send your code via established channels.
