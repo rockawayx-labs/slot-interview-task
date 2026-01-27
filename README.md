@@ -20,7 +20,7 @@ Solana slot update listener. Connects via WebSocket, subscribes to slot updates,
      - average slot time
 
 > [!TIP]
-> Feel free to change/delete everything in this repository. It is supposed to help with boilerplate, as we don't want you to spend hours of your free time on this, it is not required to kep any of the structure or code.
+> This repository is a boilerplate starting point to save you time. We don't want you spending hours of your free time on this. Feel free to refactor, replace, or remove anything as you see fit. There's no obligation to keep any of the existing structure or code.
 
 > [!CAUTION]
 > Do NOT create pull requests in this repository. Send your code via established channels.
