@@ -19,6 +19,9 @@ Solana slot update listener. Connects via WebSocket, subscribes to slot updates,
      - total slots in the window
      - average slot time
 
+> [!TIP]
+> Feel free to change/delete everything in this repository. It is supposed to help with boilerplate, as we don't want you to spend hours of your free time on this, it is not required to kep any of the structure or code.
+
 > [!CAUTION]
 > Do NOT create pull requests in this repository. Send your code via established channels.
 
